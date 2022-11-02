@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(90, 67, 42);
+    background: linear-gradient(#F2C186, #F29F05, #D97803) ;
     background-attachment: fixed;
     height: 100px
 }
@@ -8,13 +8,14 @@ h1 {
 }
 
 .todoListBox {
-    background-color: orange;
+    background:linear-gradient( #ed5d0f, #956b49, #cb7946);
     margin: 20px auto;
     margin-top: 25px;
     padding: 35px 0px 35px 0px;
     height: 550px;
     width: 450px;
     border-radius: 10px;
+    border: 2px solid rgb(30, 27, 27);
 }
 
 .todo-List {
@@ -26,7 +27,7 @@ h1 {
     margin: 5px;
     font-weight: 400;
     padding: 5px;
-    border-radius: 2px solid yellow;
+    border: 2px solid rgb(141, 141, 0);
 }
 
 .todoBox {
@@ -40,20 +41,23 @@ h1 {
 }
 
 .remove-btn {
-    padding: 13px;
+    padding: 3px 10px 9px 12px;
     border: 1px solid black;
     color: whitesmoke;
-    background-color: rgb(120, 25, 25);
-    border-radius: 5px;
+    background:linear-gradient( #BF5B05, #8C1C04, #3F0E00);
+    outline-color: transparent;
+    outline-style:solid;
+    box-shadow: 0 0 0 2px #654e04;
+    border-radius: 184px 0px 184px 0px;
     display: flex;
-    margin: -16px 1px 1px 233px;
+    margin: -22px 5px 5px 243px;
     font-size: small;
 }
 
 .addButton:hover  {
     padding: 15px;
     border-radius: 100px 5px;
-    background-color: rgb(165, 57, 57); transition: 1s;
+    background: linear-gradient(#9f4c10,#d6a57b, #7b3d10); transition: 1s;
     color: whitesmoke;
 }
 
