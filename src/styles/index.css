@@ -4,7 +4,8 @@ body {
     height: 100px
 }
 h1 {
-    color: rgb(73, 60, 41);
+    color: rgb(175, 207, 78);
+    text-shadow: 1px 10px 8px #000000
 }
 
 .todoListBox {
@@ -55,7 +56,7 @@ h1 {
     background:linear-gradient( #BF5B05, #8C1C04, #3F0E00);
     outline-color: transparent;
     outline-style:solid;
-    box-shadow: 0 0 0 2px #654e04;
+    box-shadow: 10px 5px 5px #654e04;
     border-radius: 184px 0px 184px 0px;
     display: flex;
     margin: -32px 0px 18px 249px;
@@ -71,15 +72,15 @@ h1 {
 
 .todoUl {
 
-    color:rgb(96 128 3);
-    font-size: large;
+    color:rgb(175, 207, 78);
+    font-size: medium;
     padding: 10xp 10px 10px 10px;
     border-radius: 50px;
 }
 
 li {
     list-style-type: none;
-    border:  1px solid yellow;
+    /* border:  1px solid yellow; */
     width: fit-content;
     background: linear-gradient(35deg, #BF5B05, #8C1C04, #3F0E00);
     border-radius: 80px;
@@ -87,6 +88,8 @@ li {
     line-break: auto;
     margin-top:  10px;
     height: fit-content;
+    text-align: center;
+    font-size: medium;
 }
 /* 
     You can write your own styles here...
