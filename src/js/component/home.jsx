@@ -80,10 +80,16 @@ const Todo = ({ text, todo, todos, setTodos }) => {
 		setTodos(todos.filter((e) => e.id !== todo.id));
 	};
 	return (
-		<div className="todo-list">
+		<div>
+			<div className="todo-list">
 			<li className="todo-item">{text}</li>
+			
+		</div>
+		<div className="delete-button">
 			<button onClick={deleteTodo} className="remove-btn">Done</button>
 		</div>
+		</div>
+		
 	);
 };
 
